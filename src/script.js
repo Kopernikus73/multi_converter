@@ -221,3 +221,14 @@ function copy_binary(){
     
         document.body.removeChild(textArea);
 }
+
+
+function openPage() {
+        window.location.href = "C:\\Users\\Rubikus\\Coding\\Web_Apps\\Binary_converter\\src\\morse_converter.html";
+      }
+
+
+
+function link2(){
+        alert("link2")
+}

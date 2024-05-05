@@ -66,7 +66,44 @@ body {
         cursor: pointer;
         float: right;
     }
+
+    .copy_button:hover {
+        background-color: #0886cf;
+    }
     
+    .convert_button_morse {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: 75%;
+        padding: 8px 15px;
+        border: none;
+        border-radius: 5px;
+        background-color: rgb(221,72,20);
+        color: white;
+        cursor: pointer;
+    }
+    
+    .convert_button_morse:hover {
+        background-color: rgb(221, 50, 20);
+    }
+    
+    .copy_button_morse {
+        background-color: rgb(94,39,80);
+        margin-top: 5px;
+        margin-bottom: 10px;
+        width: 24.5%;
+        padding: 8px 15px;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        cursor: pointer;
+        float: right;
+    }
+
+    .copy_button_morse:hover {
+        background-color: rgb(94, 39, 60);
+    }
+
     .dropdown {
         position: relative;
         display: inline-block;
@@ -96,3 +133,4 @@ body {
         background-color: #f1f1f1;
       }
     
+      

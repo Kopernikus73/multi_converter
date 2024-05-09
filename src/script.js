@@ -1,3 +1,5 @@
+// Binary Converter
+
 function b_to_t(){
         let text_code = {
         '01000001': 'A',
@@ -229,6 +231,7 @@ function binary_converter(){
         window.location.href = "index.html";
 }
 
+// Morse Converter
 
 function m_to_t(){
         let text_code_morse = {
@@ -291,3 +294,6 @@ function t_to_m(){
     
 
 }
+
+
+// ... Converter
